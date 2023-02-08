@@ -1,4 +1,4 @@
 # BD-Prochot
 
-This ws tha way I found to deal wiht my lapto cpu not working properly.
+This was the way I found to deal with my laptop CPU not working properly.
  
