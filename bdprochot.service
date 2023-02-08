@@ -1,0 +1,8 @@
+[Unit]
+Description=Disable bdprochot
+
+[Service]
+ExecStart=/usr/bin/bdprochot.sh
+
+[Install]
+WantedBy=multi-user.target

@@ -1,0 +1,13 @@
+[Unit]
+Description=Disable bdprochot after system suspend
+After=suspend.target
+After=hibernate.target
+After=hybrid-sleep.target
+
+[Service]
+ExecStart=/usr/bin/bdprochot.sh
+
+[Install]
+WantedBy=suspend.target
+WantedBy=hibernate.target
+WantedBy=hybrid-sleep.target
