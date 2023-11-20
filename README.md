@@ -1,6 +1,6 @@
 # BD-Prochot
 
-This was the way I found to deal with my laptop CPU not working properly.
+This was the way I found to deal with my laptop CPU Core Frequency not increasing under load because of BD Prochot and a faulty sensor.
  
  ```bash
 sudo dnf install msr-tools
