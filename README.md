@@ -41,3 +41,4 @@ sudo systemctl enable bdprochot.service
 ```bash
 sudo systemctl enable bdpres.service
 ```
+reboot
