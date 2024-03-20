@@ -14,7 +14,7 @@ sudo modprobe msr
 sudo wrmsr 0x1FC 14004d
 ```
 
-copy `bdprochot.sh` to /usr/bin and make executable
+copy `bdprochot.sh` to /usr/bin and make it executable
 
 ```bash
 sudo cp -v bdprochot.sh /usr/bin
